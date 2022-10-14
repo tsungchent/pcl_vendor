@@ -1,0 +1,15 @@
+<package format="3">
+  <name>pcl_vendor</name>
+  <version>3.3.3</version>
+  <description>pcl_vendor</description>
+  <maintainer email="slynen@ethz.ch">Simon Lynen</maintainer>
+
+  <license>See package</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>flann_vendor</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
